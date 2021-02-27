@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="Read input using getter method in lwc" >
+        <div class="slds-m-around_medium">
+            <!-- Read input using property in lwc this is first way -->
+            <p>Hello, {userName}</p>
+            <lightning-input label="Name" name="input" value={name} onchange={nameChange}></lightning-input>
+        </div>
+   </lightning-card> 
+</template>
