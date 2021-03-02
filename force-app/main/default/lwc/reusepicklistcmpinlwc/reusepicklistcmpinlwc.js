@@ -53,5 +53,6 @@ export default class Reusepicklistcmpinlwc extends LightningElement {
     changeHandler(event){
         this.selectedValue  = event.target.value;
         console.log('selectedValue'+this.selectedValue);
+        console.log('Added by rafi');
     }
 }
